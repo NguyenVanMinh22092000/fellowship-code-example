@@ -4,8 +4,7 @@ const DB_HOST = 'localhost';
 const DB_NAME = 'sample-app';
 
 export default {
-    DATABASE:
-        'mongodb://root:aza6aKLR8vd316M8@192.168.3.129:27017/bnn?retryWrites=true&loadBalanced=false&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-256',
+    DATABASE: 'mongodb://root:localhost:27017/bnn',
     DEV_MODE: true,
     SERVER_MODE: 'dev',
     CDN_PATH: '/Users/tungpham/Downloads/bnn-tracking/cdn',
